@@ -3,19 +3,19 @@ public class Aluno{
    private int id;
    
    public void setNome(String nome){
-	   this->nome = nome;
+	   this.nome = nome;
    }
    
    public void setId(int id){
-	   this->id = id;
+	   this.id = id;
    }
    
    public int getId(){
-	   return this->id;
+	   return this.id;
    }
    
    public String getNome(){
-	   return this->nome;
+	   return this.nome;
    }
    
 }
